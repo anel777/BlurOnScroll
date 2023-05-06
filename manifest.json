@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Blur on Scroll",
+  "version": "1.0.0",
+  "description": "Applies a blur effect to the page as you scroll.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
