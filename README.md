@@ -3,6 +3,8 @@ A scroll-triggered blurring Firefox extension.
 
 
 #How to Install
+
+
     1 Open your Firefox browser and click on the menu button (three horizontal lines) in the top-right corner.
 
     2. Select "Add-ons" from the menu.
